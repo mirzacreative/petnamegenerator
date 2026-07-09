@@ -1,0 +1,15 @@
+{
+  "name": "Pet Name Generator",
+  "short_name": "PetNames",
+  "start_url": "/petnamegenerator/",
+  "display": "standalone",
+  "background_color": "#fff7f2",
+  "theme_color": "#ff7a59",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
