@@ -1,0 +1,46 @@
+/* Hero / generator layout & premium transparent pet image (hero-patch.css)
+   This file is loaded dynamically by app.js when needed.
+*/
+:root{
+  --bg:#fff9f1;--ink:#24312b;--brand:#ff8a3d;--brand2:#23b08a;--soft:#fff;--muted:#647067;--line:#eadcca
+}
+.hero{
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:56px 18px;
+  text-align:center;
+  overflow:hidden;
+  background:linear-gradient(180deg, rgba(255,250,247,0.4), rgba(255,250,247,0.02));
+}
+.hero-inner{z-index:2;max-width:1100px;width:100%}
+.site-title{font-size:clamp(28px,4.2vw,44px);margin:0 0 8px;color:var(--ink);font-weight:700}
+.lead{margin:0 0 18px;color:var(--muted);font-size:15px}
+.generator-wrap{display:flex;flex-direction:column;align-items:center;gap:18px}
+#generator{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;align-items:center;padding:14px 16px;border-radius:14px;background:rgba(255,255,255,0.78);box-shadow:0 8px 24px rgba(36,49,43,0.06);border:1px solid rgba(0,0,0,0.04)}
+#generator select,#generator button{padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:var(--soft);font-size:14px}
+.results{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:14px;width:100%;margin-top:12px}
+.card{background:linear-gradient(180deg,#ffffff,#fffaf6);padding:12px;border-radius:12px;border:1px solid rgba(0,0,0,0.03);box-shadow:0 6px 18px rgba(36,49,43,0.04)}
+.card .name{font-weight:700;font-size:16px;color:var(--ink);margin-bottom:6px}
+.card .meta{font-size:12px;color:var(--muted);margin-bottom:6px}
+.card p{margin:0;font-size:13px;color:var(--muted)}
+.hero::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background-image: url('/logo.svg');
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size:40%;
+  opacity:0.06;
+  filter:grayscale(20%) blur(0.2px);
+  transform: translateX(6%);
+  pointer-events:none;
+  z-index:1;
+}
+@media (max-width:640px){
+  .hero::before{background-size:60%;opacity:0.05;background-position:center bottom}
+  #generator{padding:12px}
+  .site-title{font-size:24px}
+}
