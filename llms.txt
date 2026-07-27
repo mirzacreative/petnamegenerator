@@ -1,0 +1,24 @@
+# Pet Name Generator
+
+> Free browser-based pet name ideas and practical naming guides.
+
+## Core pages
+- Home and generator: https://mirzacreative.github.io/petnamegenerator/
+- Naming guides: https://mirzacreative.github.io/petnamegenerator/blog-index.html
+- About and editorial policy: https://mirzacreative.github.io/petnamegenerator/about.html
+
+## Animal generators
+- Dog: https://mirzacreative.github.io/petnamegenerator/dog-name-generator.html
+- Cat: https://mirzacreative.github.io/petnamegenerator/cat-name-generator.html
+- Parrot: https://mirzacreative.github.io/petnamegenerator/parrot-name-generator.html
+- Bird: https://mirzacreative.github.io/petnamegenerator/bird-name-generator.html
+- Horse: https://mirzacreative.github.io/petnamegenerator/horse-name-generator.html
+- Rabbit: https://mirzacreative.github.io/petnamegenerator/rabbit-name-generator.html
+- Fish: https://mirzacreative.github.io/petnamegenerator/fish-name-generator.html
+- Hamster: https://mirzacreative.github.io/petnamegenerator/hamster-name-generator.html
+- Turtle: https://mirzacreative.github.io/petnamegenerator/turtle-name-generator.html
+
+## Content notes
+- Generated names are suggestions and are not guaranteed to be unique.
+- Articles provide practical naming guidance, not veterinary or legal advice.
+- Pages use visible headings, crawlable links, canonical URLs and JSON-LD.

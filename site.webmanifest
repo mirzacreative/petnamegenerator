@@ -1,15 +1,18 @@
 {
   "name": "Pet Name Generator",
   "short_name": "PetNames",
+  "description": "Generate fresh pet names by animal, style and personality.",
   "start_url": "/petnamegenerator/",
+  "scope": "/petnamegenerator/",
   "display": "standalone",
-  "background_color": "#fff7f2",
-  "theme_color": "#ff7a59",
+  "background_color": "#fffaf5",
+  "theme_color": "#ff7a45",
   "icons": [
     {
       "src": "favicon.svg",
       "sizes": "any",
-      "type": "image/svg+xml"
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
     }
   ]
 }
